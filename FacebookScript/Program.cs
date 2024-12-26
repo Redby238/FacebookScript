@@ -53,7 +53,7 @@ namespace FacebookProfileScraper
 
                     
                     wait.Until(d => d.FindElement(By.Id("email"))).SendKeys("popovicustinian@gmail.com");
-                    driver.FindElement(By.Id("pass")).SendKeys("1232321");
+                    driver.FindElement(By.Id("pass")).SendKeys("yourpassword123123");
                     driver.FindElement(By.Name("login")).Click();
 
                     
